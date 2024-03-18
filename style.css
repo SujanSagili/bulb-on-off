@@ -1,0 +1,33 @@
+body{
+    /* background: linear-gradient(to right, rgb(41, 41, 41), rgb(208, 205, 205)); */
+    background-color: black;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+h1{
+    color: white;
+}
+.image img{
+    height: 500px;
+}
+.on, .off{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border: 2px solid white;
+    padding:  4px 12px;
+    cursor: pointer;
+}
+.on, .off:hover{
+    cursor: pointer;
+}
+.image .on_img{
+    height: 450px;
+    display: none;
+}
